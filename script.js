@@ -1,5 +1,6 @@
 function go(){
     rows= document.getElementById("input").value;
+    document.getElementById("div").innerHtml = " ";
     document.body.style.width=rows*104+"px";
     
     for(let x=0; x<rows; x++){
